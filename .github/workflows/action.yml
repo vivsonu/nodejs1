@@ -11,12 +11,6 @@ jobs:
      name: Running Units Tests
      nuns-on: unbuntu-latest
      
-    deploy:
-        runs-on: self-hosted
-    
-    strategy: 
-        matrix:
-            node-version: [12.x]
             
     steps:
       - uses: actions/checkout@v2

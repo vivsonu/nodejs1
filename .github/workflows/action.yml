@@ -9,7 +9,7 @@ on:
 jobs:
   test:
      name: Running Units Tests
-     nuns-on: unbuntu-latest
+     runs-on: unbuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
